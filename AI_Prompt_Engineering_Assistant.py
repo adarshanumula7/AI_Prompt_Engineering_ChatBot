@@ -7,6 +7,7 @@ import io, json
 pn.extension()
 load_dotenv(override=True)
 
+
 API_KEY = os.getenv("GROQ_API_KEY")
 
 # region helper methods
